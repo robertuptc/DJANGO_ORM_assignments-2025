@@ -1,0 +1,102 @@
+[
+    {
+        "model": "pets_and_owners_app.owner",
+        "pk": 1,
+        "fields": {
+            "name": "Robert Puentes",
+            "age": 34,
+            "number_of_pets": 2
+        }
+    },
+    {
+        "model": "pets_and_owners_app.owner",
+        "pk": 2,
+        "fields": {
+            "name": "Mike Lambert",
+            "age": 34,
+            "number_of_pets": 1
+        }
+    },
+
+    {
+        "model": "pets_and_owners_app.cat",
+        "pk": 1,
+        "fields": {
+            "breed": "Persian",
+            "age": 5,
+            "vaccinated": "True",
+            "description": "Found on the street",
+            "name": "Boots"
+        }
+    },
+    {
+        "model": "pets_and_owners_app.cat",
+        "pk": 2,
+        "fields": {
+            "breed": "American Shorthair",
+            "age": 3,
+            "vaccinated": "True",
+            "description": "Adopted",
+            "name": "Pussy"
+        }
+    },
+
+    {
+        "model": "pets_and_owners_app.bird",
+        "pk": 1,
+        "fields": {
+            "name": "Piolin",
+            "age": 1,
+            "vaccinated": "False",
+            "description": "Wild",
+            "species": "American Crow"
+        }
+    },
+    {
+        "model": "pets_and_owners_app.bird",
+        "pk": 2,
+        "fields": {
+            "name": "Julian",
+            "age": 5,
+            "vaccinated": "False",
+            "description": "Wild",
+            "species": "American Robin"
+        }
+    },
+
+    {
+        "model": "pets_and_owners_app.dog",
+        "pk": 1,
+        "fields": {
+            "age": 5,
+            "name": "Triton",
+            "vaccinated": "True",
+            "breed": "Irish Setter",
+            "description": "Bought at amish farm"
+        }
+    },
+    {
+        "model": "pets_and_owners_app.dog",
+        "pk": 2,
+        "fields": {
+            "age": 5,
+            "name": "Zorro",
+            "vaccinated": "True",
+            "breed": "Mix",
+            "description": "Adopted from Colombia"
+        }
+    },
+    
+    {
+        "model": "pets_and_owners_app.exoticanimal",
+        "pk": 1,
+        "fields": {
+            "region_of_origin": "Colombia",
+            "name": "Roberto",
+            "age": 3,
+            "type_of_animal": "Parrot",
+            "vaccinated": "False"
+        }
+    }
+]
+

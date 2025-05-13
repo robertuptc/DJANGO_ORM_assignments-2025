@@ -1,0 +1,83 @@
+[
+    {
+        "model": "video_store_app.client",
+        "pk": 1,
+        "fields": {
+            "account_type": "Robert Puentes",
+            "email": "robert@gmail.com",
+            "active": "True"
+        }
+    },
+
+    {
+        "model": "video_store_app.video",
+        "pk": 1,
+        "fields": {
+            "title": "Up",
+            "in_stock": 12,
+            "rating": "C"
+        }
+    },
+    {
+        "model": "video_store_app.video",
+        "pk": 2,
+        "fields": {
+            "title": "Butterfly Effect",
+            "in_stock": 2,
+            "rating": "B"
+        }
+    },
+
+    {
+        "model": "video_store_app.person",
+        "pk": 1,
+        "fields": {
+            "first_name": "Triton",
+            "last_name": "Puentes",
+            "middle_init": "F",
+            "age": 5
+        }
+    },
+    {
+        "model": "video_store_app.person",
+        "pk": 2,
+        "fields": {
+            "first_name": "Zorro",
+            "last_name": "Lambert",
+            "middle_init": "E",
+            "age": 3
+        }
+    },
+
+    {
+        "model": "video_store_app.address",
+        "pk": 1,
+        "fields": {
+            "street": "123 the address",
+            "zipcode": 11111,
+            "state": "PA",
+            "appt_num": 3
+        }
+    },
+    {
+        "model": "video_store_app.address",
+        "pk": 2,
+        "fields": {
+            "street": "123 the other address",
+            "zipcode": 22222,
+            "state": "PA",
+            "appt_num": 4
+        }
+    },
+
+    {
+        "model": "video_store_app.store",
+        "pk": 1,
+        "fields": {
+            "name": "The video store",
+            "number_of_employees": 5,
+            "rating": 5,
+            "owner": 1
+        }
+    }
+]
